@@ -125,7 +125,10 @@ Can our company withstand the defaults?
         html.H1(children='Employment Tenure and Loan Duration'),
 
         html.Div(children='''
-            Metrics to check the distribution of customers employment length and loan duration
+            Metrics to check the distribution of customers employment length and loan duration. |
+            X-Axis : Employment (Year) |
+            Y-Axis : Count |
+            Color : Loan Duration (months) |
         '''),
 
         dcc.Graph(
